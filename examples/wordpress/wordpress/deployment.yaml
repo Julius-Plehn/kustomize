@@ -16,7 +16,7 @@ spec:
         app: wordpress
     spec:
       containers:
-      - image: wordpress:4.8-apache
+      - image: wordpress:php8.3-apache
         name: wordpress
         ports:
         - containerPort: 80
